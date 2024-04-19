@@ -27,15 +27,15 @@ sudo apt install ros-humble-cv-bridge
 ## Node Information
 ---
 - ImgPublisher
--- Publishing a Image topic named '/camera'.
+  - Publishing a Image topic named '/camera'.
   
 - cannyedge
--- Subsrcibe '/camera' topic
--- Publishing a topic named '/cannyedge' with canny edge filter applied to the images.
+  - Subsrcibe '/camera' topic
+  - Publishing a topic named '/cannyedge' with canny edge filter applied to the images.
   
 - overlay
--- Subsrcibe '/camera', '/cannyedge' topic
--- Publishing images on the topic named '/overlay', with the Canny edge filter applied to the original images.  
+  - Subsrcibe '/camera', '/cannyedge' topic
+  - Publishing images on the topic named '/overlay', with the Canny edge filter applied to the original images.  
   
 ## Modifying parameters
 ---
