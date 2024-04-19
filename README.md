@@ -56,7 +56,7 @@ threshold_1 and threshold_2 are the threshold values used in the Canny edge dete
 
 - server.yaml  
 ![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/1e2ded0f-a7d2-4f07-931b-d57aec06a718)  
-
+  - The path to save the image
 
 
 ## Build Workspace
