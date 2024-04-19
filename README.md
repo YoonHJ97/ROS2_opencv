@@ -18,4 +18,58 @@ git clone --recurse-submodules https://github.com/adrian-soch/ros_vision_track.g
 
 ```bash
 pip3 install opencv-python
-sudo apt install ros-humble-cv-bridge```
+sudo apt install ros-humble-cv-bridge
+```
+
+
+# Running the Code
+---
+## Build Workspace
+---
+
+
+```bash
+colcon build
+```
+
+
+## Sourcing
+
+
+```bash
+source /opt/ros/humble/setup.bash
+source source install/setup.bash
+```
+
+
+## Launch Total Python File
+---
+
+
+```bash
+ros2 launch oneday_project total.launch.py 
+```
+
+## Capture Image
+---
+There are three Topics.
+[/camera, /cannyedge, /overlay]
+
+
+```bash
+ros2 service call /capture_image oneday_project_msgs/srv/CaptureImage {"topic: Topic_name"}
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
