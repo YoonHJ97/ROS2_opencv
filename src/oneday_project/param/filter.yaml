@@ -1,0 +1,10 @@
+cannyedge:
+  ros__parameters:
+    threshold_1: 100
+    threshold_2: 200
+
+overlay:
+  ros__parameters:
+    alpha: 0.7
+    beta: 0.3
+    gamma: 0

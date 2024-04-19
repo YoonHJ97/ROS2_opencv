@@ -1,0 +1,3 @@
+service_server:
+  ros__parameters:
+    path: '/home/hj/amr_ws/ROS/data/'
