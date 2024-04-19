@@ -12,8 +12,10 @@
 
 ```bash
 git clone --recurse-submodules https://github.com/adrian-soch/ros_vision_track.git
-
+```
 
 ## Install Python requirements
 
-pip install opencv-python
+```bash
+pip3 install opencv-python
+sudo apt install ros-humble-cv-bridge```
