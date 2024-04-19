@@ -24,7 +24,7 @@ sudo apt install ros-humble-cv-bridge
 
 # Running the Code
 ---
-## Set parameters
+## Modifying parameters
 ---
 size.yaml  
 ![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/a5dba682-7afd-4763-b36f-0cef20e3d227)  
@@ -89,16 +89,6 @@ ros2 service call /capture_image oneday_project_msgs/srv/CaptureImage {"topic: T
 ```  
 ![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/f6ace3b5-0229-4c73-a820-d0c6496f092a)  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/0853134b-74ea-459b-ad40-08fc6964352b)  
+  
+![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/1476cf6c-84df-4a95-8786-90a40eb7acc4)
