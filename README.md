@@ -26,11 +26,11 @@ sudo apt install ros-humble-cv-bridge
 ---
 ## Set parameters
 ---
-size.yaml
+size.yaml  
 ![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/a5dba682-7afd-4763-b36f-0cef20e3d227)
-fliter.yaml
+fliter.yaml  
 ![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/b4ae5d82-7f0e-4603-b33a-ec284dc99dc1)
-server.yaml
+server.yaml  
 ![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/1e2ded0f-a7d2-4f07-931b-d57aec06a718)
 
 
