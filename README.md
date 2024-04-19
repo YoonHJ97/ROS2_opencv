@@ -7,7 +7,13 @@
 
 # Set Up
 ---
-To get started
+## To get started
+
 
 ```bash
 git clone --recurse-submodules https://github.com/adrian-soch/ros_vision_track.git
+
+
+## Install Python requirements
+
+pip install opencv-python
