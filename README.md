@@ -115,4 +115,4 @@ ros2 service call /capture_image oneday_project_msgs/srv/CaptureImage {"topic: T
 
 ![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/0853134b-74ea-459b-ad40-08fc6964352b)  
   
-![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/1476cf6c-84df-4a95-8786-90a40eb7acc4)
+![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/d438a933-f7e5-436a-9d3a-f4b73c3c0503)
