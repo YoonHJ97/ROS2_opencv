@@ -1,4 +1,4 @@
-![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/58097521-5cd3-4dff-8f19-84ec1ecfc6c1)# ROS2_opencv
+# ROS2_opencv
 ---
 ## Directory Tree
 ---
@@ -66,11 +66,10 @@ ros2 launch oneday_project total.launch.py
 /camera  
 ![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/d0d7d6c9-4813-40c6-8921-633a707f8f4b)  
   
-  
 /cannyedge  
 ![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/f70cf6ad-529a-4c55-9ef0-a4b29c7e4a81)  
-
-/overlay
+  
+/overlay  
 ![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/81681f34-6771-4bfe-8fc5-d711f740240a)  
 
 
