@@ -41,11 +41,20 @@ sudo apt install ros-humble-cv-bridge
 ---
 - size.yaml  
 ![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/a5dba682-7afd-4763-b36f-0cef20e3d227)  
--- set
+  - Set Image topic size
   
-fliter.yaml  
-![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/b4ae5d82-7f0e-4603-b33a-ec284dc99dc1)  
-server.yaml  
+- fliter.yaml  
+![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/b4ae5d82-7f0e-4603-b33a-ec284dc99dc1)
+threshold_1 and threshold_2 are the threshold values used in the Canny edge detector.  
+  - threshold_1: If the gradient intensity is higher than the threshold, it is considered as an edge. Lower values detect more edges but also generate more noise.
+  - threshold_2: If the gradient intensity is lower than the threshold, it is not considered as an edge. Higher values generate fewer but stronger edges.
+  
+Alpha, Beta, and Gamma play the following roles:  
+Alpha: It's the weight applied to the original image. A higher value makes the original image more dominant.
+Beta: It's the weight applied to the edges detected. A higher value emphasizes the edges more.
+Gamma: An additional value added to the computed weighted sum. Typically, it's 0.
+
+- server.yaml  
 ![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/1e2ded0f-a7d2-4f07-931b-d57aec06a718)  
 
 
