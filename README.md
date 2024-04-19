@@ -60,6 +60,10 @@ source source install/setup.bash
 ```bash
 ros2 launch oneday_project total.launch.py 
 ```
+  
+  
+![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/1e633c8b-e830-4509-80a3-c8de878e12c8)  
+  
 
 ## RQT
 ---
@@ -82,7 +86,8 @@ There are three Topics.
 
 ```bash
 ros2 service call /capture_image oneday_project_msgs/srv/CaptureImage {"topic: Topic_name"}
-```
+```  
+![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/f6ace3b5-0229-4c73-a820-d0c6496f092a)  
 
 
 
