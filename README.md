@@ -24,10 +24,25 @@ sudo apt install ros-humble-cv-bridge
 
 # Running the Code
 ---
+## Node Information
+---
+- ImgPublisher
+-- Publishing a Image topic named '/camera'.
+  
+- cannyedge
+-- Subsrcibe '/camera' topic
+-- Publishing a topic named '/cannyedge' with canny edge filter applied to the images.
+  
+- overlay
+-- Subsrcibe '/camera', '/cannyedge' topic
+-- Publishing images on the topic named '/overlay', with the Canny edge filter applied to the original images.  
+  
 ## Modifying parameters
 ---
-size.yaml  
+- size.yaml  
 ![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/a5dba682-7afd-4763-b36f-0cef20e3d227)  
+-- set
+  
 fliter.yaml  
 ![image](https://github.com/YoonHJ97/ROS2_opencv/assets/162243554/b4ae5d82-7f0e-4603-b33a-ec284dc99dc1)  
 server.yaml  
