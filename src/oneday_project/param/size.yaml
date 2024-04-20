@@ -1,4 +1,4 @@
 img_publisher:
   ros__parameters:
-    width: 100
-    length: 100
+    width: 640
+    length: 360

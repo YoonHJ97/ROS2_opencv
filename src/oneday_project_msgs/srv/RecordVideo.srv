@@ -1,3 +1,4 @@
 string topic
+int64 time
 ---
 string saved_video_path
